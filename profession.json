@@ -1,0 +1,88 @@
+[
+	
+	{
+		"type": "profession",
+		"id": "fema_survivor",
+		"name": "FEMA Compliant Survivor",
+		"description": "Long before the cataclysm, you had prepared a simple emergency kit following government guidelines to last you until help came. It doesn't look like anyone is coming to rescue you now, however.",
+		"points": 4,
+		"items":
+		{
+			"both":
+			{
+				"items":
+				[
+					"hat_ball",
+					"sunglasses",
+					"knit_scarf",
+					
+					"longshirt",
+					"hoodie",
+					"jacket_light",
+					"mbag",
+					
+					"gloves_light",
+					"wristwatch",
+					
+					"fanny",
+					"jeans",
+					
+					"socks_ankle",
+					"sneakers"
+				],
+				"entries":
+				[
+					{ "group": "charged_smart_phone" },
+					
+					{ "group": "fema_emkit" }
+				]
+			},
+			"male": [ "boxer_shorts" ],
+			"female": [ "bra", "panties" ]
+		}
+	},
+	{
+		"type": "profession",
+		"id": "fema_prepper",
+		"name": "FEMA Compliant Prepper",
+		"description": "You took your emergency preparedness seriously, always making sure you had the basic necessities ready in case of disaster. It's supposed to last you until aid arrives, but you're not so sure that's going to happen now. ",
+		"points": 4,
+		"items":
+		{
+			"both":
+			{
+				"items":
+				[
+					"hat_ball",
+					"mask_ski",
+					
+					"undershirt",
+					"sweater",
+					"jacket_windbreaker",
+					"binoculars",
+					"backpack",
+					
+					"gloves_light",
+					"diving_watch",
+					
+					"leather_belt",
+					"pants_cargo",
+					
+					"socks",
+					"boots_hiking"
+				],
+				"entries":
+				[
+					{ "group": "charged_smart_phone" },
+					
+					{ "group": "knife_rambo_full", "container-item": "scabbard" },
+					
+					{ "group": "fema_emkit" }
+				]
+			},
+			"male": [ "boxer_briefs" ],
+			"female": [ "sports_bra", "boy_shorts" ]
+		}
+	}
+
+]

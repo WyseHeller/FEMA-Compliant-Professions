@@ -1,0 +1,104 @@
+[
+	
+	{
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "fema_emkit_gear",
+		"entries":
+		[
+			{ "item": "multitool" },
+			{ "item": "whistle_multitool" },
+			{ "group": "charged_matches" },
+			
+			{ "group": "charged_flashlight" },
+			{ "group": "charged_two_way_radio" },
+			
+			{ "item": "light_plus_battery_cell", "ammo-item": "battery", "charges": 100 }
+		]
+	},
+	{
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "fema_emkit_medical",
+		"entries":
+		[
+			{ "item": "bandages" },
+			{ "item": "adhesive_bandages", "count": 10 },
+			{ "item": "alcohol_wipes" },
+			
+			{ "item": "aspirin" },
+			{ "item": "nyquil" },
+			{ "item": "pepto" },
+			{ "item": "gummy_vitamins" }
+		]
+	},
+	{
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "fema_emkit_food",
+		"entries":
+		[
+			{ "item": "can_opener" },
+			{ "item": "tin_plate" },
+			{ "item": "spork" },
+			
+			{ "item": "peanutbutter" },
+			{ "group": "foodintincan" },
+			{ "item": "water_clean", "container-item": "thermos" }
+		]
+	},
+	{
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "fema_emkit_clothes",
+		"entries":
+		[
+			{ "item": "mask_dust", "variant": "white_mask_dust", "custom-flags": [ "no_auto_equip" ] },
+			{ "item": "tshirt", "variant": "generic_tshirt", "custom-flags": [ "no_auto_equip" ] },
+			{ "item": "socks", "custom-flags": [ "no_auto_equip" ] }
+		]
+	},
+	{
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "fema_emkit_docs",
+		"entries":
+		[
+			{ "group": "wallet_full" },
+			
+			{ "item": "black_pen", "charges": 100 },
+			{ "item": "permanent_marker", "charges": 500 },
+			{ "item": "paper", "charges": 20, "container-item": "leather_journal" },
+			
+			{ "item": "pocket_survival" },
+			{ "item": "pocket_firstaid" },
+			{ "item": "roadmap" }
+		]
+	},
+	{
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "fema_emkit_shelter",
+		"entries":
+		[
+			{ "item": "duct_tape" },
+			{ "item": "plastic_sheet" }
+		]
+	},
+	
+	{
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "fema_emkit",
+		"entries":
+		[
+			{ "group": "fema_emkit_gear" },
+			{ "group": "fema_emkit_medical" },
+			{ "group": "fema_emkit_food" },
+			{ "group": "fema_emkit_clothes" },
+			{ "group": "fema_emkit_docs" },
+			{ "group": "fema_emkit_shelter" }
+		]
+	}
+
+]

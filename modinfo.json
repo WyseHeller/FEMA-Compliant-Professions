@@ -1,0 +1,12 @@
+[
+	{
+		"type": "MOD_INFO",
+		"id": "kitted_prepper_profession",
+		"name": "Kitted Prepper Profession",
+		"authors": [ "Aunt_Su | 苏大妈#7831" ],
+		"description": "emergency kit that follow FEMA disaster preparedness guidelines.",
+		"category": "misc_additions",
+		"obsolete": false,
+		"dependencies": [ "dda" ]
+	}
+]
